@@ -1,0 +1,239 @@
+.animateFive{
+	width: 200px;
+	height: 570px;
+	background-color:white;
+	float: left;
+	border: 1px solid #CCC;
+	overflow: hidden;
+}
+.animateFive h2{
+	width: 240px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 20px;
+	padding-left:10px ;
+}
+.list01{
+	padding-top: 5px;
+	width: 258px;
+	height: 95px;
+	border-top: 1px solid #CCC;
+	position: relative;
+}
+.animateFive a{
+	color: black;
+}
+.listText:hover{
+	color: red;
+}
+.number01{
+	width: 58px;
+	height: 58px;
+	float: left;
+	background: url(../img/more12345.png) no-repeat 0px -132px;
+}
+.number02{
+	width: 58px;
+	height: 58px;
+	float: left;
+	background: url(../img/more12345.png) no-repeat -58px -132px;
+}
+.number03{
+	width: 58px;
+	height: 58px;
+	float: left;
+	background: url(../img/more12345.png) no-repeat -116px -132px;
+}
+.number04{
+	width: 58px;
+	height: 58px;
+	float: left;
+	background: url(../img/more12345.png) no-repeat 0 -191px;
+}
+.number05{
+	width: 58px;
+	height: 58px;
+	float: left;
+	background: url(../img/more12345.png) no-repeat -58px -191px;
+}
+
+.listImg{
+	width: 90px;
+	height: 90px;
+	float: left;
+}
+.listText{
+	height: 80px;
+	width: 70px;
+	margin-left: 30px;
+	margin-top: 10px;
+	float: left;
+}
+.listText span{
+	display: block;
+	width: 70px;
+	font-size:24px ;
+	color: red;
+}
+.whiteArea{
+	width: 90px;
+	height: 85px;
+	background-color: white;
+	position: absolute;
+	left: 150px;
+	
+}
+.main{
+	width: 980px;
+	height: auto;
+	margin-left: 10px;
+	float: left;
+}
+.mainTitle{
+	width: 975px;
+	height: 110px;
+	padding-top: 5px;
+	padding-left: 5px;
+	
+}
+.mainTitle p{margin-bottom: 5px;}
+.mainTitle p a{
+	color:black;
+}
+.mainTitle p a:hover{
+	text-decoration: underline;
+}
+.pinpai{
+	width: 973px;
+	height: 40px;
+	border: 1px solid #CCCCCC;
+}
+.pinpai dt{
+	text-align: center;
+	width: 120px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+}
+.pinpai dd{
+	width: 100px;
+	height: 40px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+}
+.pinpai dd a{
+	color: black;
+}
+.pinpai dd a:hover{color: #DA251C;}
+.food{
+	width: 214px;
+	height: 280px;
+	border: 2px white double;
+	float: left;
+	margin-left: 5px;
+	padding: 5px 0px 0px 20px;
+}
+.food:hover{
+	border: 2px #CCC double;
+
+}
+.food dt{
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.food dt img{
+	transition: all 1s;
+}
+.food:hover dt img{
+	transform: scale(1.2);
+}
+
+.food dd{
+	width:150px;
+	float: left;
+	}
+.food dd a{
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+	
+}
+.food dd a:hover{
+	color: #DA251C;
+	text-decoration: underline;
+	
+}
+.food span{
+	color: #DA251C;
+	font-size: 20px;
+	float: left;
+	transition: all 0.5s;
+}
+.food:hover span{
+	font-weight: bold;
+	transform: scale(2) rotate(360deg);
+}
+.whiteCar{
+	width: 98px;
+	height: 38px;
+	background-color: white;
+	border:1px solid #DA251C;
+	float: left;
+	margin-left: 50px;
+	line-height: 40px;
+	font-size: 15px;
+	font-family: "黑体";
+	color: #DA251C;
+	cursor: pointer;
+		border-radius:5px ;
+}
+.whiteC{
+	margin-top:10px;
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+.redCar{
+	width: 98px;
+	height: 38px;
+	background-color: #DA251C;
+	border:1px solid white;
+	float: left;
+	margin-left: 50px;
+	line-height: 40px;
+	font-size: 15px;
+	font-family: "黑体";
+	color: white;
+	cursor: pointer;
+	border-radius:5px ;
+}
+.redC{
+	margin-top:10px;
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+.beforeNext{
+	height: 40px;
+	background: white;
+	float: left;
+	padding-top:10px ;
+	padding-left: 50%;
+}
+#before{
+	width:60px;
+	height: 20px;
+	border: 1px solid black;
+	background: white;
+	cursor: pointer;
+}
+#next{
+	margin-left: 10px;
+	width:60px;
+	height: 20px;
+	border: 1px solid black;
+	background: white;
+	cursor: pointer;
+
+}

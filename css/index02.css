@@ -1,0 +1,293 @@
+#bodyer01{
+	width: 1200px;
+	height: 375px;
+	float: left;
+}
+.b01h1{
+	height: 53px;
+	line-height: 53px;
+	border-bottom: 2px solid #DA251C;
+	font-size: 24px;
+}
+.b01Leftdiv{
+	width: 243px;
+	height: 320px;
+	float: left;
+	overflow:hidden;
+}
+#huaTou{
+	position:relative;
+	left: -243px;
+	bottom:320px;
+}
+.b01Rightdiv{
+	width: 957px;
+	height: 320px;
+	float: left;
+}
+.b01Rightdiv dl{
+	width: 230px;
+	height: 320px;
+	float: left;
+	margin-left: 8px;
+	background-color: #F1F7F4;
+	overflow: hidden;
+}
+.b01RightdivDt{	
+	background-color: white;
+	width: 240px;
+	height: 220px;
+	overflow: hidden;
+}
+.b01RightdivImg{
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+.b01RightdivDd a{
+	margin-top: 15px;
+	display: block;
+	font-size: 18px;
+	color: black;
+	margin-bottom:20px ;
+	margin-left: 10px;
+}
+.b01RightdivDd a:hover{
+	color:#DA251C;
+	text-decoration:underline ;
+}
+.b01Rightdiv span{
+	color: #DE0801;
+	font-size: 20px;
+	display: block;
+	width: 40px;
+	height: 20px;
+	float: left;
+	margin-left: 10px;
+}
+.goLook{
+	text-align: center;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	float: right;
+	border-radius: 20%;
+	background-color: #FF870F;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 20px;
+}
+.goLook:hover{
+	text-decoration:underline;
+}
+#bodyer02{
+	width: 1200px;
+	height: 375px;
+	float: left;
+}
+.b02h1{
+	height: 53px;
+	line-height: 53px;
+	border-bottom: 2px solid #DA251C;
+	font-size: 24px;
+}
+.b02div{
+	width: 1200px;
+	height: 320px;
+	overflow: hidden;
+}
+.b02divfive{
+	width: 240px;
+	height: 320px;
+	float: left;
+}
+#bodyer03{
+	width: 1200px;
+	height: 440px;
+	margin-top: 20px;
+	float: left;
+	margin-bottom: 30px;
+}
+.b03Left{
+	width: 200px;
+	height: 440px;
+	float: left;
+	background-color: #6ECB3C;
+}
+.b03Left h1{
+	line-height: 43px;
+	border-bottom: 1px solid #8BD563;
+	font-size: 24px;
+	color: white;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.b03Left ul{
+	width:200px;
+	height: 183px;
+}
+.b03Left li{
+	width: 75px;
+	height: 20px;
+	line-height: 20px;
+	float: left;
+	padding-left: 20px;
+	margin-top:10px;
+}
+.b03Left li a{
+	color: white;
+	font-weight: bold;
+}
+.b03Left li a:hover{
+	text-decoration: underline;
+}
+.b03LeftDiv{
+	padding: 10px;
+	width: 180px;
+	height: 193px;
+	background-color: #F6F6F6;
+}
+.b03body{
+	width: 1000px;
+	height: 440px;
+	float: left;
+}
+.b03bodyUl{
+	padding-left: 10px;
+	width: 990px;
+	height: 44px;
+	background-color: #F6F6F6;
+}
+.b03bodyUl li{
+	margin-left:15px;
+	width: 80px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	float: left;
+}
+.b03bodyUl li a{
+	padding: 5px;
+	font-size: 16px;
+	color:black;
+}
+.b03bodyUl li a:hover{
+	width: 60px;
+	height: 38px;
+	color: white;
+	background-color: #8BD563;
+}
+.b03bodyAll{
+	width: 1000px;
+	height: 396px;
+}
+.b03bodyTab{
+	
+}
+#b03bodyTabBanner{
+	display: block;
+	height: 396px;
+	width: 400px;
+	float: left;
+}
+.b03bodyTabDl{
+	float: left;
+	width: 195px;
+	height: 197px;
+	border-bottom: 1px solid #E5E5E5;
+	border-right: 1px solid #E5E5E5;
+	padding-left: 4px;
+
+}
+.b03bodyTabDl img{
+	position: relative;
+	left: 4px;
+}
+.b03bodyTabDl dd a{
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+}
+.b03bodyTabDl dd a:hover{
+	text-decoration: underline;
+	color: #DA251C;
+}
+.b03bodyTabDl span{
+	font-size: 18px;
+	font-weight: bold;
+	float: right;
+	color:red;
+	position: relative;
+	bottom: 10px;
+}
+.vipCard{
+	width: 1200px;
+	height: 80px;
+	
+	margin-top:30px;
+
+	border-radius: 1%;
+}
+.vipCard dl{
+	border;1px solid #BDBDBD;
+	width: 240px;
+	height: 70px;
+	padding-top: 10px;
+	float: left;
+	background-color: #F2F2F2;
+}
+.vipCard dt{
+	padding-left: 30px;
+	width: 70px;
+	height: 60px;
+	line-height: 60px;
+	float: left;
+	position: relative;
+}
+.vipCard dd{
+	width: 136px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	float: left;
+}
+footer{
+	width: 100%;
+	height: 230px;
+	background-color: #DA251C;
+	float: left;
+}
+.shopFoot{
+	width: 1200px;
+}
+footer dl{
+	float: left;
+	width:300px;
+	text-align: center;
+}
+footer dl dt{
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	margin:10px 0px 10px 0px;
+}
+footer dl dd{
+	margin: 5px 0px 5px 0px;
+}
+footer dl dd a{
+	font-size: 14px;
+	color:#CACACA;
+}
+footer dl dd a:hover{
+	font-size: 14px;
+	color:white;
+	text-decoration: underline;
+}
+footer p{
+	text-align: center;
+	margin-top:20px;
+	color: white;
+}

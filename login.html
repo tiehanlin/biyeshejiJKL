@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<link href="css/login.css"type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+	
+<div id="container"><!--背景图平铺-->
+	<img src="img/bg1.jpg" height="100%" width="100%" /> 
+</div>
+<div id="times">
+<img  src="img/倒计时2.png" width="248" height="350"/>
+<img  src="img/倒计时3.png" width="248" height="350" style="display:none"/>
+<img  src="img/倒计时.png" width="248" height="350" style="display:none"/>
+</div>
+<div class="bodyer">
+	<img class="login_background" src="img/timg (1)nologo.jpg"/>
+ 	<div class="login">
+ 		<ul class="login_top">
+ 			<li class="login_top_li01">登陆</li>
+ 			<li class="login_top_li02">注册</li>
+ 			<div class="login_block">
+            <form action="index.html" method="get" onsubmit="return finalCheck()">
+ 				<dl>
+ 					<dt>用户名：</dt>
+ 					<dd><input type="text" id="NickName" value="请输入用户名/手机号/邮箱" onfocus="nullName()" onblur="checkName()"/></dd>
+ 					<dt>密码：</dt>
+ 					<dd><input type="password" id="password" onfocus="nullPassword()" onblur="checkpassword()"/></dd>
+ 					<div class="checkbox"><input type="checkbox" id="checkboxs"/><label for="checkboxs">记住用户名</label></div>
+ 					<div class="forgetPassword"><a href="##">忘记密码？</a></div>
+ 					<div class="submitDiv"><img src="img/login1new.jpg" width="201" height="70"/><input type="image" src="img/login2new.jpg" id="submits"></div>
+                    <div class="subBottom">
+                    	<a href="##"><div class="subBottom_third"><img src="img/qq.jpg"/><p>qq登陆</p></div></a>
+                            <a href="##"><div class="subBottom_third"><img src="img/wechat.jpg"/><p>微信登陆</p></div></a>
+                           <a href="##"><div class="subBottom_third"><img src="img/weibo.jpg"/><p>微博登陆</p></div></a>  
+                    </div>
+ 				</dl>
+            </form>
+ 			</div>
+ 			<div class="sign_none">
+            <form action="index.html" method="get" onsubmit="return finalCheck1()">
+ 				<dl>
+ 					<dt>注册用户名：</dt>
+ 					<dd><input type="text" id="NickName1" value="请输入用户名/手机号/邮箱" onfocus="nullName1()" onblur="checkName1()"/></dd>
+ 					<dt>密码：</dt>
+ 					<dd><input type="password" id="password1" onfocus="nullPassword1()" onblur="checkpasswor1d()"/></dd>
+                    <dt>再次输入密码：</dt>
+ 					<dd><input type="password" id="password1" onfocus="nullPassword1()" onblur="checkpassword1()"/></dd>
+ 					<!--<div class="checkbox"></div>
+ 					<div class="forgetPassword"></div>-->
+ 					<div class="submitDiv1"><img src="img/注册并登陆new.jpg" width="200" height="70"/><input type="image" src="img/注册并登陆2new.jpg" id="submits1"></div>
+                    <div class="subBottom">
+                    	<a href="##"><div class="subBottom_third"><img src="img/qq.jpg"/><p>qq登陆</p></div></a>
+                            <a href="##"><div class="subBottom_third"><img src="img/wechat.jpg"/><p>微信登陆</p></div></a>
+                           <a href="##"><div class="subBottom_third"><img src="img/weibo.jpg"/><p>微博登陆</p></div></a>  
+                    </div>
+ 				</dl>
+            </form>
+            </div>
+ 		</ul>
+ 	</div>
+</div>
+
+</body>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/login.js"></script>
+</html>
